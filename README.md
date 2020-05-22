@@ -10,11 +10,15 @@ Talk to the team/manager about what are they want to gain from automation, what 
 
 Get to know product team making. Test and taste product manually.
 
-Get to know processes and tools team using.
+Get to know processes and tools team is using.
 
 > 2. Which process would you establish around testing new functionality?
 
-Rule of thumb: all new functionality should be tested before pushing to production. Practically that means testing all implemented features, user stories, bugs etc. before merging to "master".
+Rule of thumb: all new functionality should be tested before pushing to production. Practically that means testing all implemented features, user stories, bugs etc. before merging to master "master".
+
+"Reject" tickets back to developers in case bugs are found.
+
+Use bug tracker for organizing tickets workflow.
 
 
 > 3. Which techniques or best practices in terms of code architecture and test design would you use in your automated tests?
