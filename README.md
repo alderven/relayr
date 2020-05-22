@@ -12,7 +12,7 @@ Get to know product that team is making. Test and taste product manually.
 
 Get to know processes and tools team is using.
 
-Prepare roadmap for automation. E.g.: first week: create smoke test to cover base functionality, second week: integrate it to CI/CD to run it automatically, third week: create integration test to cover simple business case, etc.
+Prepare roadmap for automation. E.g.: first sprint: create smoke test to cover base functionality, second sprint: integrate it to CI/CD to run it automatically, third sprint: create integration test to cover simple business case, etc.
 
 > 2. Which process would you establish around testing new functionality?
 
