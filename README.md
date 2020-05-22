@@ -12,13 +12,13 @@ Get to know product that team is making. Test and taste product manually.
 
 Get to know processes and tools team is using.
 
+Prepare roadmap for automation. E.g.: first weeK: create smoke test to cover base functionality, second week: integrate it to CI/CD to run it automatically, third week: create integration test to cover business logic, etc.
+
 > 2. Which process would you establish around testing new functionality?
 
-Rule of thumb: all new functionality should be tested before pushing to production. Practically that means testing all implemented features, user stories, bugs etc. before merging them to "master".
+Rule of thumb: all new functionality should be tested before pushing to production. Practically that means testing all implemented features, user stories, bugs etc. before merging them to "master". Return "rejected" tickets back to developers.
 
-Return "rejected" tickets back to developers.
-
-Use bug tracker to handle tickets "cycle".
+Use bug tracker to handle tickets "cycle" and interact with other team members.
 
 
 > 3. Which techniques or best practices in terms of code architecture and test design would you use in your automated tests?
