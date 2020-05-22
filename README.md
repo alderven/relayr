@@ -32,9 +32,13 @@ No flaky tests. No false negatives. Keep tests actualized and relevant.
 
 Use test framework to organize and run tests, e.g. [pytest](https://docs.pytest.org/en/latest/).
 
-Use tearup/teardown (in terms of pytests it is called [fixtures](https://docs.pytest.org/en/latest/fixture.html)) for test data preparation/deletion.
+Use tearup/teardown (in terms of pytests it is called [fixtures](https://docs.pytest.org/en/latest/fixture.html)) for test data preparation/deletion and for reusing components in other tests.
 
 Use [parametrization](https://docs.pytest.org/en/latest/parametrize.html) in order to avoid duplication of code.
+
+Create test independed from each other.
+
+Use steps-expected result structure in test.
 
 Use reporting tool, e.g. [Yandex Allure](https://docs.qameta.io/allure/) for convenient results representation.
 
