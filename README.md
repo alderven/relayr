@@ -30,19 +30,19 @@ No flaky tests. No false negatives. Keep tests actualized and relevant.
 
 ### 3. Which techniques or best practices in terms of code architecture and test design would you use in your automated tests?
 
-Use test framework to organize and run tests, e.g. [pytest](https://docs.pytest.org/en/latest/).
+* Use test framework to organize and run tests, e.g. [pytest](https://docs.pytest.org/en/latest/).
 
-Use tearup/teardown (in terms of pytests it is called [fixtures](https://docs.pytest.org/en/latest/fixture.html)) for test data preparation/deletion and for reusing components in other tests.
+* Use tearup/teardown (in terms of pytests it is called [fixtures](https://docs.pytest.org/en/latest/fixture.html)) for test data preparation/deletion and for reusing components in other tests.
 
-Use [parametrization](https://docs.pytest.org/en/latest/parametrize.html) in order to avoid duplication of code.
+* Use [parametrization](https://docs.pytest.org/en/latest/parametrize.html) in order to avoid duplication of code.
 
-Create test independed from each other.
+* Create test independed from each other.
 
-Use steps-expected result structure in test.
+* Use steps-expected result structure in test.
 
-Use reporting tool, e.g. [Yandex Allure](https://docs.qameta.io/allure/) for convenient results representation.
+* Use reporting tool, e.g. [Yandex Allure](https://docs.qameta.io/allure/) for convenient results representation.
 
-Use [Page Object](https://selenium-python.readthedocs.io/page-objects.html) pattern for UI automation.
+* Use [Page Object](https://selenium-python.readthedocs.io/page-objects.html) pattern for UI automation.
 
 # Task 2: API test
 
