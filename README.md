@@ -23,6 +23,12 @@ Use bug tracker to handle tickets "cycle" between other team members.
 
 > 3. Which techniques or best practices in terms of code architecture and test design would you use in your automated tests?
 
+Use test framework to organize and run tests, e.g. [pytest](https://docs.pytest.org/en/latest/)
+Use [fixtures](https://docs.pytest.org/en/latest/fixture.html) or tearup/teardown for test data preparation/deletion.
+Use parametrization(https://docs.pytest.org/en/latest/parametrize.html) for convenient test 
+Use reporting tool, e.g. [Yandex Allure](https://docs.qameta.io/allure/) for convenient results representation
+Use [Page Object](https://selenium-python.readthedocs.io/page-objects.html) approach for UI automation.
+
 As I understood your company has microservices architecture.
 In this case I would prefer having **functional** tests for every microservice and **integration** tests to test interaction between services. Also it is important to have **regression** tests with all functionality covered, but it is a lot work to do so it is a long term plans.
 Additionally it would be nice to have **monitoring** tests for getting healthcheck in production.
