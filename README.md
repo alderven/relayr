@@ -29,8 +29,8 @@ Use bug tracker to handle tickets "cycle" between team members.
 Perform test reviews (for both automation and manual tests).
 
 As I understood your company has microservices architecture.
-In this case I would prefer having **functional** tests for every microservice and **integration** tests to test interaction between services. Also it is important to have **regression** tests with all functionality covered, but it is a lot work to do so it is a long term plans.
-Additionally it would be nice to have **monitoring** tests for getting healthcheck in production. 
+In this case I would prefer having **functional** tests for every microservice and **integration** tests to test interaction between services. Also, it is important to have **regression** tests with all functionality covered, but it is a lot work to do so it is a long term plans.
+Additionally, it would be nice to have **monitoring** tests for getting healthcheck in production. 
 
 No flaky tests. No false negatives. Keep tests actualized and relevant.
 
@@ -38,11 +38,11 @@ No flaky tests. No false negatives. Keep tests actualized and relevant.
 
 * Use test framework to organize and run tests, e.g. [pytest](https://docs.pytest.org/en/latest/).
 
-* Use tearup/teardown (in terms of pytests it is called [fixtures](https://docs.pytest.org/en/latest/fixture.html)) for test data preparation/deletion and for reusing components in other tests.
+* Use tearup/teardown (in terms of pytest it is called [fixtures](https://docs.pytest.org/en/latest/fixture.html)) for test data preparation/deletion and for reusing components in other tests.
 
 * Use [parametrization](https://docs.pytest.org/en/latest/parametrize.html) in order to avoid duplication of code.
 
-* Create test independed from each other.
+* Create test independend from each other.
 
 * Use steps-expected result structure in test.
 
