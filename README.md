@@ -38,7 +38,7 @@ Use [parametrization](https://docs.pytest.org/en/latest/parametrize.html) in ord
 
 Use reporting tool, e.g. [Yandex Allure](https://docs.qameta.io/allure/) for convenient results representation.
 
-Use [Page Object](https://selenium-python.readthedocs.io/page-objects.html) approach for UI automation.
+Use [Page Object](https://selenium-python.readthedocs.io/page-objects.html) pattern for UI automation.
 
 # Task 2: API test
 
