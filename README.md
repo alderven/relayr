@@ -2,17 +2,23 @@
 
 ### 1. What would you do in your first few days of work? Where would you start?
 
-Get acquainted with the team and working place.
+* Get acquainted with the team and working place.
 
-Talk to the manager about forthcoming milestones and future plans; ask for any urgent work to do.
+* Talk to the manager about forthcoming milestones and future plans; ask for any urgent work to do.
 
-Talk to the team/manager about what are they want to gain from automation, what are most crucial parts to test/automate first.
+* Talk to the team/manager about what are they want to gain from automation, what are most crucial parts to test/automate first.
 
-Get to know product that team is making. Test and taste product manually.
+* Get to know product that team is making. Test and taste product manually.
 
-Get to know processes and tools team is using.
+* Get to know processes and tools team is using.
 
-Prepare roadmap for automation. E.g.: first sprint: create smoke test to cover base functionality, second sprint: integrate it to CI/CD to run it automatically, third sprint: create integration test to cover simple business case, etc.
+* Prepare roadmap for automation. E.g.:
+
+   1. first sprint: create smoke test to cover base functionality
+
+   1. second sprint: integrate it to CI/CD to run it automatically
+
+   1. third sprint: create integration test to cover simple business case, etc.
 
 ### 2. Which process would you establish around testing new functionality?
 
