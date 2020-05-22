@@ -30,7 +30,7 @@ No flaky tests. No false negatives. Keep tests actualized and relevant.
 
 ### 3. Which techniques or best practices in terms of code architecture and test design would you use in your automated tests?
 
-Use test framework to organize and run tests, e.g. [pytest](https://docs.pytest.org/en/latest/)
+Use test framework to organize and run tests, e.g. [pytest](https://docs.pytest.org/en/latest/).
 
 Use tearup/teardown (in terms of pytests it is called [fixtures](https://docs.pytest.org/en/latest/fixture.html)) for test data preparation/deletion.
 
