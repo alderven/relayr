@@ -8,17 +8,17 @@ Talk to the manager about forthcoming milestones and future plans; ask for any u
 
 Talk to the team/manager about what are they want to gain from automation, what are most crucial parts to test/automate first.
 
-Get to know product team making. Test and taste product manually.
+Get to know product that team is making. Test and taste product manually.
 
 Get to know processes and tools team is using.
 
 > 2. Which process would you establish around testing new functionality?
 
-Rule of thumb: all new functionality should be tested before pushing to production. Practically that means testing all implemented features, user stories, bugs etc. before merging to master "master".
+Rule of thumb: all new functionality should be tested before pushing to production. Practically that means testing all implemented features, user stories, bugs etc. before merging them to "master".
 
-"Reject" tickets back to developers in case bugs are found.
+Return "rejected" tickets back to developers.
 
-Use bug tracker for organizing tickets workflow.
+Use bug tracker to handle tickets "cycle".
 
 
 > 3. Which techniques or best practices in terms of code architecture and test design would you use in your automated tests?
