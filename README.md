@@ -25,7 +25,7 @@ Use bug tracker to handle tickets "cycle" between other team members.
 
 Use test framework to organize and run tests, e.g. [pytest](https://docs.pytest.org/en/latest/)
 
-Use [fixtures](https://docs.pytest.org/en/latest/fixture.html) or tearup/teardown for test data preparation/deletion.
+Use tearup/teardown (in terms of pytests it is called [fixtures](https://docs.pytest.org/en/latest/fixture.html)) for test data preparation/deletion.
 
 Use parametrization(https://docs.pytest.org/en/latest/parametrize.html) in order to avoid duplication of code.
 
