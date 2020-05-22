@@ -27,7 +27,7 @@ Use test framework to organize and run tests, e.g. [pytest](https://docs.pytest.
 
 Use tearup/teardown (in terms of pytests it is called [fixtures](https://docs.pytest.org/en/latest/fixture.html)) for test data preparation/deletion.
 
-Use parametrization(https://docs.pytest.org/en/latest/parametrize.html) in order to avoid duplication of code.
+Use [parametrization](https://docs.pytest.org/en/latest/parametrize.html) in order to avoid duplication of code.
 
 Use reporting tool, e.g. [Yandex Allure](https://docs.qameta.io/allure/) for convenient results representation.
 
