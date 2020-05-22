@@ -37,7 +37,7 @@ As I understood your company has microservices architecture.
 In this case I would prefer having **functional** tests for every microservice and **integration** tests to test interaction between services. Also it is important to have **regression** tests with all functionality covered, but it is a lot work to do so it is a long term plans.
 Additionally it would be nice to have **monitoring** tests for getting healthcheck in production.
 
-General rule is that all tests should be well documented. That's why I love [Yandex Allure](https://docs.qameta.io/allure/): this tools allows to have self-documented way of writing tests.
+General rule is that all tests should be well documented. That's why I love [Yandex Allure](https://docs.qameta.io/allure/): this tool generated self-documented tests report.
 
 No flaky tests. No false negatives. My job as a QA is to keep tests actualized and relevant.
 
